@@ -1,23 +1,6 @@
 # Homework
 Homework for Java Bootcamp in July 2019
 
-### Oil Platform
-(Dynamic Programming, Base Case & Build)
-
-### Glass
-(Dynamic Programming, Base Case & Build)
-
-Memoization, Depth-First
-
-[1] [4] [5]
-
-How many?
-
-Generate All
-
-### Bus Station
-(Greedy)
-
 ### Divide & Conquer in Binary Tree
 
 ![](binary-tree.png)
@@ -29,7 +12,7 @@ Generate All
 
 - ค่าผลรวมของค่าใน Leaf ตัวอย่างในภาพคือ 5 + 9 + 1 + 5 + 1 + 2 = 23
 
-- หาค่าที่มากที่สุดจาก Root ไปยัง Leaf ตัวอย่างในภาพคือ 3 + 7 + 2 + 9 = 21
+- ค่าที่มากที่สุดจาก Root ไปยัง Leaf ตัวอย่างในภาพคือ 3 + 7 + 2 + 9 = 21
 
 ตัวอย่างการหาค่าทั้งหมดใน Tree
 ```
@@ -39,14 +22,16 @@ int getSum(Node c) {
 }
 ```
 
-### X Dominoes
+### ม้าหมุน
 (Breadth-First Search, Depth-First Search, Iterative Deepening for NP-Complete Problem)
 
-ม้าหมุนแต่ละตัวจะมี 4 ขา แต่ละขามีสีหรือตัวเลขกำกับไว้ ให้เขียนโค้ดหมุนม้าหมุนเพื่อให้ขาที่ติดกัน มีสีหรือตัวเลขเดียวกัน พิมพ์ Possible ถ้าทำได้ หรือ Impossible ถ้าทำไม่ได้
+ม้าหมุนแต่ละตัวจะมี 4 ขา แต่ละขามีสีหรือตัวเลขกำกับไว้ ม้าหมุนสามารถหมุนได้ทีละ 90 องศา 
+ให้เขียนโค้ดเพื่อหมุนให้ขาที่ติดกัน มีสีหรือตัวเลขเดียวกัน พิมพ์จำนวนการหมุนที่น้อยที่สุดออกมาถ้าเป็นไปได้ หรือ Impossible ถ้าเป็นไปไม่ได้
 
 ![](rotation.png)
 
-ตัวอย่างข้อมูลในภาพจาก File ชื่อ rotation.txt มีม้าหมุน 6 ตัว แบ่งเป็น 2 x 3 ตัว แต่ละตัวมีข้อมูลตามเข็มนาฬิกา
+ตัวอย่างมีม้าหมุน 6 ตัว แบ่งเป็น 2 x 3 ตัว แต่ละตัวมีข้อมูลตามเข็มนาฬิกาตามภาพข้างบน 
+ม้าหมุนตัวแรกมีค่า 1 2 3 4
 ```
 2 3
 1 2 3 4
@@ -60,22 +45,13 @@ int getSum(Node c) {
 ตัวอย่างผลลัพธ์จากภาพคือหมุน 4 ครั้ง
 
 ### Square Dominoes
+(Breadth-First Search, Depth-First Search)
+Square Domino แต่ละตัวมี 4 ช่อง ซึ่งสามารถหมุนได้ครั้งละ 90 องศา เพื่อเอาด้านที่เหมือนกันมาต่อกัน
+ดังภาพ
+![](square.png)
 
-ต่อเป็นแถวเดียว
+ให้เขียนโค้ดอ่านข้อมูล และหาว่าสามารถวาง Square Domino ให้เรียงเป็นเส้นตรงเดียวกันได้หรือไม่ 
 
 ```
-|2 3| |3 2| |2 3|
-|4 1| |1 5| |5 4|
+
 ```
-
-Permutation
-
-Greedy
-
-Dynamic Programming (Easiest Hard Problem)
-
-Josephus
-
-Caterpillar Method
-
-
