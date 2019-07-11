@@ -20,7 +20,7 @@ Generate All
 
 ### Divide & Conquer in Binary Tree
 
-![](binary-tree.png
+![](binary-tree.png)
 
 จาก Binary ที่กำหนดให้ซึ่งอาจจะมีข้อมูลนับล้านตัว 
 ให้เขียนโค้ดหาคำตอบดังนี้
