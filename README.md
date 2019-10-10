@@ -44,6 +44,10 @@ class Element {
 ```
 ![](binary-tree.png)
 
+### Double Domino
+
+![](double.png)
+
 
 ## September 2019
 
