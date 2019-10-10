@@ -13,6 +13,33 @@ Homework for Java Bootcamp
 
 https://github.com/kookiatsuetrong/homework
 
+## October 2019
+
+### 1. Binary Tree
+- ตัวอย่าง: ให้เขียน Code เพื่อรับ Binary Tree เข้ามาแล้วนับจำนวน Leaf
+```java
+
+int countLeaf(Element e) {
+  if (e == null) return 0;
+  if (e.left == null && e.right == null) return 1;
+  return countLeaf(e.left) + countLeaf(e.right);
+}
+
+```
+
+- ให้เขียนโค้ดเพื่อรับ Binary Tree เข้ามา แล้วหาค่าใน Leaf ที่สูงที่สุด ตัวอย่างในภาพคือ 9
+
+
+```java
+class Element {
+  int value;
+  Element left;
+  Element right;
+}
+```
+![](binary-tree.png)
+
+
 ## September 2019
 
 ### 0. Container
