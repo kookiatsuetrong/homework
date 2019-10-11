@@ -224,6 +224,30 @@ Square Domino แต่ละตัวมี 4 ช่อง ซึ่งสา�
 
 ## Backup Homework
 
+### Containers
+
+Merging two consecutive stacks of X containers and Y containers takes 2 * X * Y minutes. For example you have two stacks with 3 and 4 containers, it will take 2*(3+4) = 14 minutes. Write code to merge all stacks of containers by merging two consecutive stacks to a single stack in the minimum amount of time.
+
+For example, you have stacks [4,2,3] 
+
+You can merge in two ways: |4-2|-3 and 4-|2-3|. The first way takes 2*(4+2) = 12 minutes to become [6,3] and 2*(6+3) = 18 minutes for the second merge. Total time is 30 minutes.
+The second way is to take 2*(2+3) = 10 minutes to become [4,5] and 2*(4+5) = 18 minutes, the total time is 28 minutes which is faster than the first way.
+
+Input
+```
+3
+4 2 3
+```
+Output
+```
+28
+```
+
+![](stack.png)
+
+
+### Log
+
 เลื่อยไฟฟ้าในโรงงานจะทำงานได้ดี ถ้าท่อนซุงที่เข้ามาเรียงลำดับจากน้อยไปมาก
 ให้เขียนโค้ดเพื่อหาว่า จะดึงท่อนซุงออกไปกี่อันให้น้อยที่สุด 
 เพื่อให้เลื่อยไฟฟ้าทำงานได้ดี
