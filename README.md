@@ -26,7 +26,7 @@ CODESTAR เป็น Coding Bootcamp ในกรุงเทพ
 สำหรับคนที่สนใจมาเรียน
 ดูคอร์สเรียนได้ที่นี่ https://codestar.work/register
 
-การบ้านเดือนนี้มีทั้ง Depth-First Search และ Dynamic Programming
+การบ้านแต่ละเดือนมีทั้ง Tree Search และ Dynamic Programming
 ใครมีเพื่อนทำได้ส่งใบสมัครงานมาได้เลย
 ไม่ต้องมาเรียนให้เสียเวลา support@codestar.work
 
@@ -124,6 +124,8 @@ Double Domino สามารถพลิกเพื่อเอาด้าน
 4 3
 6 1
 ```
+
+![](card.png)
 
 ## September 2019
 
